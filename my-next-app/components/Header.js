@@ -18,7 +18,7 @@ const Header = () => {
             <Icon name="description" size="5xl" color="blue" />
             <h1 className="md:inline-flex ml-2 text-gray-700 text-2xl mx-2">Docs</h1>
 
-            <div className="flex flex-grow items-center p-5 py-2 bg-gray-100 m-2 text-gray-600 rounded-lg">
+            <div className="flex flex-grow items-center p-5 py-2 bg-gray-100 mx-5 text-gray-600 rounded-lg">
                 <Icon name="search" size="3xl" color="darkgray" />
                 <input type="text" placeholder="Search" className="flex-grow px-5 text-base bg-transparent outline-none" />
             </div>
