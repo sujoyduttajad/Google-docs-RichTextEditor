@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import Icon from "@material-tailwind/react/Icon";
+import Button from "@material-tailwind/react/Button";
 
 const Section = () => {
     return (
@@ -6,6 +8,16 @@ const Section = () => {
             <div className="max-w-3xl mx-auto">
                 <div className="flex items-center justify-between py-6">
                     <h2 className="text-gray-700 text-lg">Start a new document</h2>
+
+                    <Button
+                        color="gray"
+                        buttonType="outline"
+                        iconOnly={true}
+                        ripple="dark"
+                        className="border-0"
+                    >
+                        <Icon name="more_vert" size="3xl" />
+                    </Button>
                 </div>
             </div>
         </section>
