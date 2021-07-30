@@ -1,6 +1,7 @@
 import React from 'react';
 import Icon from "@material-tailwind/react/Icon";
 import Button from "@material-tailwind/react/Button";
+import Image from 'next/image'
 
 const Section = () => {
     return (
@@ -13,11 +14,15 @@ const Section = () => {
                         color="gray"
                         buttonType="outline"
                         iconOnly={true}
+                        rounded={true}
                         ripple="dark"
                         className="border-0"
                     >
                         <Icon name="more_vert" size="3xl" />
                     </Button>
+                </div>
+                <div>
+                    <Image src="https://links.papareact.com/pju" layout="fill" />
                 </div>
             </div>
         </section>
