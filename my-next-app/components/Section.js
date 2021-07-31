@@ -22,7 +22,11 @@ const Section = () => {
                     </Button>
                 </div>
                 <div>
-                    <Image src="https://links.papareact.com/pju" layout="fill" />
+                    <div className="relative h-52 w-40">
+                        <Image src="https://links.papareact.com/pju" layout="fill" />
+                    </div>
+                    
+                    <p>Blank</p>
                 </div>
             </div>
         </section>
