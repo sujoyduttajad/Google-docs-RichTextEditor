@@ -5,10 +5,10 @@ import Image from 'next/image'
 
 const Section = () => {
     return (
-        <section className="bg-[#F8F9FA] pb-10 px-10 h-20vh">
+        <section className="bg-gray-100 pb-10 px-10">
             <div className="max-w-3xl mx-auto">
                 <div className="flex items-center justify-between py-6">
-                    <h2 className="text-gray-700 text-lg">Start a new document</h2>
+                    <h2 className="text-gray-700 text-lg font-bold">Start a new document</h2>
 
                     <Button
                         color="gray"
@@ -26,7 +26,7 @@ const Section = () => {
                         <Image src="https://links.papareact.com/pju" layout="fill" />
                     </div>
 
-                    <p>Blank</p>
+                    <p className="ml-2 mt-2 font-semibold text-sm text-gray-700">Blank</p>
                 </div>
             </div>
         </section>
