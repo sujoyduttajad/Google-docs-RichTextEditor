@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
+import Body from '../components/Body'
 import Header from '../components/Header'
 import Section from '../components/Section'
 // import styles from '../styles/Home.module.css'
@@ -15,6 +15,7 @@ export default function Home() {
 
       <Header />
       <Section />
+      <Body />
       
     </div>
   )

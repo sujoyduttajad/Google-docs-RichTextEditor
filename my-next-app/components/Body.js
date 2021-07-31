@@ -1,4 +1,6 @@
 import React from 'react'
+import Icon from "@material-tailwind/react/Icon";
+import Button from "@material-tailwind/react/Button";
 
 const Body = () => {
     return (
@@ -7,6 +9,7 @@ const Body = () => {
                 <div>
                     <h2>My Documents</h2>
                     <p>Date Created</p>
+                    <Icon name="folder" size="3xl" color="gray" />
                 </div>
             </div>
         </section>
