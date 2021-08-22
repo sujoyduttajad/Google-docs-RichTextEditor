@@ -20,4 +20,7 @@ const firebaseConfig = {
     : firebase.app();
 
 
-// Now we will create    
+// Now we will create a DB instance which will allow us to access hte firestore DB where we will store everything
+  const db = app.firestore();  
+
+  export { db };
