@@ -3,8 +3,12 @@ import Body from '../components/Body'
 import Header from '../components/Header'
 import Section from '../components/Section'
 // import styles from '../styles/Home.module.css'
+import { getSession, useSession } from "next-auth/react"
 
 export default function Home() {
+
+  const [session] = useSession();
+
   return (
     <div>
       <Head>
