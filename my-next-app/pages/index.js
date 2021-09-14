@@ -3,6 +3,7 @@ import Body from '../components/Body'
 import Header from '../components/Header'
 import Section from '../components/Section'
 import { getSession, useSession } from "next-auth/client"
+import Login from '../components/Login'
 
 export default function Home() {
 
