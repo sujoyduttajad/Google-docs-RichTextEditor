@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Body from '../components/Body'
 import Header from '../components/Header'
 import Section from '../components/Section'
-import { getSession, useSession } from "next-auth/react"
+import { getSession, useSession } from "next-auth/client"
 
 export default function Home() {
 
