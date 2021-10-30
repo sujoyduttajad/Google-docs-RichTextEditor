@@ -11,7 +11,7 @@ const firebaseConfig = {
 
 // Here connect Firebase to the app
 // Typically we use firebase.InitializeApp() function when we are using react
-// but with Next.js when it is SSR sometimes it might already initialized the app 
+// but with Next.js when using SSR sometimes it might already initialized the app 
 // so in that case it ends up double initializeing the app 
 // To avoid double initialization we are using the below code logic
 // So if there is no app --> then pass in the firebaseConfig --> otherwise we gonna use what we already have
