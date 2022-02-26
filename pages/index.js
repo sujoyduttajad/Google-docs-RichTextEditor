@@ -8,7 +8,7 @@ import Login from '../components/Login'
 export default function Home() {
 
   // const [session] = useSession();
-  const { data: session} = useSession();
+  const [session] = useSession();
   console.log(session);
 
   // const [session] = getSession();
